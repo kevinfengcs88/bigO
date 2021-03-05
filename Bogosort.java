@@ -8,7 +8,7 @@ public class Bogosort{
         return true;                            // function returns true if it can get through the for loop without returning
     }
 
-    public static void swap (int[]a, int x, int y){ // swaps two indices in an integer array
+    public static void swap(int[]a, int x, int y){  // swaps two indices in an integer array
             int temp = a[x];                        // set a[x] to a temporary integer variable
             a[x] = a[y];                            // set a[y] to a[x], losing a[x]'s value in the process
             a[y] = temp;                            // set a[x] to a[y] via the temporary variable
